@@ -1,6 +1,41 @@
 
-  h1 {
-    color: green;
-    background-color: brown;
+ header {
+    text-align: center;
+    background-color: #D2691E;
+    margin: 0.2em;
+    padding: 0.8em;
+ }
+ 
+ .content {
+    display: flex;
+ }
 
-  }
+ .side-navbar {
+    width: 10%;
+    text-align: center;
+    background-color: lightgreen;
+    margin: 0.2em;
+    padding: 1em; 
+ }
+
+ .main-content {
+    width: 70%;
+    margin: 0.2em;
+    padding: 1em; 
+    background-color: aquamarine;
+ }
+
+ .side-content {
+    width: 20%;
+    background-color: lightBlue;
+    margin: 0.2em;
+    padding: 1em;
+ }
+
+ footer {
+    text-align: center;
+    background-color:#D2691E;
+    margin: 0.2em;
+    padding: 1em;
+ }
+ 
