@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <base href="https://www.w3schools.com" target="_blank">
+    <link rel="icon" href="https://upload.wikimedia.org/wikipedia/commons/4/47/PNG_transparency_demonstration_1.png">
+    <title>
+        Exercise 1
+    </title>
+    <link rel="stylesheet" href="./../FrontEndFirstPractice/mystyle.css">
+</head>
+<body>
+    <body>
+        <header style="text-align: center; background-color:#D2691E; margin: 2px; padding: 2px;">
+            <h1>HTML Semantics and Flexbox</h1>
+        </header>
+        <section style="display: flex; ">
+            <nav style="width: 10%; text-align: center; background-color: lightgreen; margin: 0.3em; padding: 10px;">   
+                <h3>Navigate</h3>          
+                <strong>Home<br>
+                <a href="/html/default.asp">Link1</a><br>
+                <a href="/css/default.asp">Link2</a>
+                </strong>
+            </nav>
+            <main style="width: 70%; margin: 0.3em; padding: 10px; background-color: aquamarine;">
+                
+                <article>
+                    <h2> About this page</h2>
+                    <p>On this page, I am experimenting with HTML5 semantics and CSS flexbox for a tidy layout.</p>
+                    <p>On JS Bin, I purposedly includes the stylesheet on the HTML tab (instead of separate CSS tab) for easier code reading for those with small screen.</p>
+                    <p>The main element is placed within a div element along with nav and aside. I don't know if this is right or wrong (let me know?).</p>
+                    <p>Navigation links are placed within nav, laid on the left. The main is at the center column (this column). Within it is the main topic (this article).</p>
+                    <p>The aside element is at the rightmost of the column, I put supplemental information on it.</p>   
+                </article>
+                <h2>Test this page</h2>
+                    <p>Do test this page by</p>
+                <ul>
+                    <li>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus vitae dolor</li>
+                    <li>Facilisis eros vel urna eleifend, at ultricies felis pretium. Donec finibus ut elit</li>
+                    <li>
+                        Ipsum primis in faucibus. Donec scelerisque augue leo, ac dignissim mi rutrum a. scelerisque augue leo, sc elerisque augue leo,
+                        <a href="/css/css_rwd_intro.asp">Click here to do something</a>
+                    </li>
+                    <li>
+                        Lorem ipsum dolor sit amet, consectetur adipisicing elit. 
+                        <a href="/bootstrap/bootstrap_ver.asp">Click here</a>
+                    </li>
+                </ul>
+            </main>
+    
+            <aside style="width: 20%; background-color: lightBlue; margin: 0.3em; padding: 15px;">
+                <h2>HTML</h2>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsa vel voluptatum saepe  </p>
+                <h2>CSS</h2>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. </p>
+                <h2>URL</h2>
+                    <p>Lorem ipsum. Facilis neque architecto repudiandae asperiores vitae saepe quisquam alias</p>
+            </aside>
+        </section>
+        <footer style="text-align: center; background-color:#D2691E; margin: 2px; padding: 10px;">
+            Nov, 2015 @ royray
+        </footer>
+</body>
+</html>
